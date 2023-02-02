@@ -1,0 +1,253 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+body {
+	margin: 0;
+	padding: 0;
+	font-family: "Poppins", sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+	margin: 0;
+	padding: 0;
+}
+button {
+	cursor: pointer;
+}
+.container {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+nav,
+main {
+	width: 1280px;
+}
+/*   NAV START   */
+nav {
+	height: 90px;
+	display: flex;
+	align-items: center;
+}
+nav ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	height: 40px;
+	width: 100%;
+	display: flex;
+	justify-content: end;
+	align-items: center;
+	gap: 20px;
+}
+.logo {
+	margin-right: auto;
+}
+#logo {
+	height: 40px;
+}
+.black-btn {
+	border: 0px;
+	background-color: black;
+	color: white;
+	padding: 8px 20px;
+	border-radius: 25px;
+}
+/*    NAV END     */
+.white-btn {
+	border: 2px solid black;
+	background-color: white;
+	color: black;
+	padding: 8px 20px;
+	border-radius: 25px;
+}
+/* HERO START */
+#hero {
+	margin: 3em 0 6em 0;
+}
+#hero img {
+	width: 100%;
+	border-radius: 50px;
+}
+.hero-main {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+	margin: 1em 0 3em 0;
+}
+.hero-main h2 {
+	font-size: 3em;
+}
+.hero-main p {
+	flex: 70%;
+	margin-bottom: 0;
+}
+.hero-img-section {
+	margin-top: 3em;
+}
+/* HERO ENDS */
+/* CLIENTS START */
+#clients {
+	margin: 3em 0 6em 0;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+#clients p {
+	width: 400px;
+	text-align: center;
+}
+#clients div {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+#clients img {
+	width: 150px;
+}
+/* CLIENTS END */
+/* SERVICES START */
+#services,
+#service-one,
+#service-two,
+#service-three {
+	margin: 3em 0 6em 0;
+}
+#services h2 {
+	width: 50%;
+	font-size: 3em;
+	margin: 35px 0px;
+}
+#services .cards {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+#services .card {
+	border: 2px solid lightgray;
+	border-radius: 25px;
+	width: 300px;
+	height: 350px;
+	box-sizing: border-box;
+	padding: 30px 20px;
+	position: relative;
+}
+#services img {
+	height: 50px;
+}
+#services .card p {
+	position: absolute;
+	bottom: 30px;
+	width: 250px;
+}
+.service .black-btn {
+	margin-top: 2em;
+}
+/* SERVICES ENDS */
+.service {
+	display: flex;
+}
+.service h2 {
+	font-size: 3em;
+	margin: 30px 0px;
+}
+.service h3 {
+	font-size: 1.5em;
+	margin: 30px 0px;
+}
+.service img {
+	width: 100%;
+}
+.small-header {
+	color: #293fff;
+}
+.service-content {
+	flex: 50%;
+}
+.service-img {
+	flex: 50%;
+}
+
+/* CTA START */
+#cta {
+	margin: 3em 0 5em 0;
+	display: grid;
+	grid-template-columns: 50% 50%;
+}
+#cta h3 {
+	font-size: 5em;
+	padding: 0px;
+	margin: 0px;
+}
+#cta h3 span {
+	color: #2400ff;
+}
+.cta-section-two {
+	position: relative;
+}
+.cta-section-two p {
+	position: absolute;
+	bottom: 10px;
+}
+#cta #email {
+	border: 2px solid lightgray;
+	border-radius: 25px;
+	height: 50px;
+	width: 100%;
+	padding: 10px 15px;
+	box-sizing: border-box;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.subscribe-form {
+	width: 60%;
+}
+.checkbox-submit {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+/* CTA END */
+/* FOOTER START */
+footer {
+	background-color: black;
+	color: white;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.footer-container {
+	width: 1280px;
+}
+footer ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	color: lightgray;
+	margin-top: 20px;
+}
+.footer-list-header {
+	font-weight: bold;
+	font-size: larger;
+}
+#upper-footer {
+	padding: 50px 0px;
+	display: grid;
+	grid-template-columns: 25% 25% 25% 25%;
+}
+#upper-footer li {
+	margin-bottom: 20px;
+}
+#lower-footer {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	color: lightgray;
+	padding: 30px 0px;
+}
+/* FOOTER END */
